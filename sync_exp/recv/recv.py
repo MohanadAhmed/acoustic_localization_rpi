@@ -1,7 +1,12 @@
+#####################################################
+# Reema Alnafisi
+# Synchronization Test Experiment
+# 13/06/2022
+#####################################################
+
 import RPi.GPIO as GPIO
 from lib_nrf24 import NRF24
 import time
-from datetime import datetime
 import spidev
 import warnings
 warnings.filterwarnings("ignore")
@@ -20,7 +25,6 @@ radio.setChannel(100)                       #connected on channel 100
 radio.setDataRate(NRF24.BR_250KBPS)         #the higher the datarate, the faster the transmission speed (but it is risky for long distance communication)
 radio.setPALevel(NRF24.PA_MIN)              #Power Amplification level to minimum
 radio.setAutoAck(False)
-
 radio.openReadingPipe(1, pipes[1])          #reading pipe1
 radio.printDetails()
 radio.ce(NRF24.HIGH)
