@@ -7,7 +7,7 @@ $$ \hat{d} = \frac{t_r - t_x}{c_{sound}} $$
 
 Where:
 
-  $ c_{sound} $: Speed of sound
+  $ c_{sound} $ : Speed of sound
   $ t_r $ : time of reception
   $ t_x $ : time of transmission
   $ d $ : distance measurement
