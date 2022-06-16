@@ -3,7 +3,7 @@ Note that the NRF24L01 modules are locates close to each other, and the transmit
 
 |Trial No.|        |        | Transmitter |        |          |        |        | Receiver |        |          | Packets Received |
 |:------:|:------:|:------:|:-----------:|:------:|:--------:|:------:|:------:|:--------:|:------:|:--------:|:-------------:|
-| ------ | PA_MIN | PA_LOW |   PA_HIGH   | PA_MAX | PA_ERROR | PA_MIN | PA_LOW |  PA_HIGH | PA_MAX | PA_ERROR | ---------------- |
+| ------ | PA_MIN | PA_LOW |   PA_HIGH   | PA_MAX | PA_ERROR | PA_MIN | PA_LOW |  PA_HIGH | PA_MAX | PA_ERROR | ------------- |
 |    1   |    1   |    0   |      0      |    0   |     0    |    1   |    0   |     0    |    0   |     0    |        97        |
 |    2   |    0   |    1   |      0      |    0   |     0    |    1   |    0   |     0    |    0   |     0    |        98        |
 |    3   |    0   |    0   |      1      |    0   |     0    |    1   |    0   |     0    |    0   |     0    |        100       |
